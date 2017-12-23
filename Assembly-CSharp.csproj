@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\bereken.cs" />
+     <Compile Include="Assets\draai.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/bilalelayachi/Desktop/calculator/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
