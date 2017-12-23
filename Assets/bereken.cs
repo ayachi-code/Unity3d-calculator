@@ -19,6 +19,10 @@ public class bereken : MonoBehaviour {
 	
 
 
+		int de_getal1_nummer = int.Parse (de_getal1_text);
+		int de_getal2_nummer = int.Parse (de_getal2_text);
+
+
 	}
 
 
