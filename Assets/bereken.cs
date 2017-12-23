@@ -49,10 +49,12 @@ public class bereken : MonoBehaviour {
 
 		int som_plus = de_getal1_nummer + de_getal2_nummer;
 		int som_min = de_getal1_nummer - de_getal2_nummer;
+		int som_keer = de_getal1_nummer * de_getal2_nummer;
 
 
 		String som_plus_text = som_plus.ToString ();
 		String som_min_text = som_min.ToString ();
+		String som_keer_text = som_keer.ToString ();
 	
 
 		if (welke == 1) {
@@ -61,6 +63,9 @@ public class bereken : MonoBehaviour {
 		} else if(welke == 2) {
 			print (som_min_text);
 			detext.text = som_min_text;
+		} else if(welke == 3) {
+			print (som_keer_text);
+			detext.text = som_keer_text;
 		} else {
 			print("Kies een operator");
 			detext.text = "Kies een operator";
