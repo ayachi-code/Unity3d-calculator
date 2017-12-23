@@ -10,7 +10,7 @@ public class bereken : MonoBehaviour {
 	public InputField getal1;
 	public InputField getal2;
 	public Text detext;
-
+	public Text keuze;
 
 	int welke = 0;
 
@@ -18,18 +18,21 @@ public class bereken : MonoBehaviour {
 	{
 
 		welke = 1;
+		keuze.text = "Keuze: plus";
 
 	}
 
 	public void min()
 	{
 		welke = 2;
+		keuze.text = "Keuze: min";
 	}
 
 
 	public void keer()
 	{
 		welke = 3;
+		keuze.text = "Keuze: keer";
 
 	}
 
