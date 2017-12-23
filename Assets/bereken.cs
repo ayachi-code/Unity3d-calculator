@@ -10,7 +10,11 @@ public class bereken : MonoBehaviour {
 	public InputField getal2;
 
 
+	public void bereken()
+	{
 
+
+	}
 
 
 
