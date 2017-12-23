@@ -9,6 +9,8 @@ public class bereken : MonoBehaviour {
 
 	public InputField getal1;
 	public InputField getal2;
+	public Text detext;
+
 
 	int welke = 0;
 
