@@ -10,7 +10,7 @@ public class bereken : MonoBehaviour {
 	public InputField getal2;
 
 
-	public void bereken()
+	public void bereken_som()
 	{
 
 
